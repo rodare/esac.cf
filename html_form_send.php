@@ -105,7 +105,7 @@ $headers = 'From: '.$email_from."\r\n".
  <div class="navigation">
 	<ul>
 	<div class="dropdown">
-    <a href="index.html"><button class="dropbtn"><i class="fa fa-home"></i></button></a>
+    <a href="index.html"><button class="dropbtn">About</i></button></a>
 </div>
 	<div class="dropdown">
    <a href="about.html"><button class="dropbtn">About</button></a>
