@@ -12,31 +12,22 @@ a{
 a:hover{
 	color:#e4050d;
 }
-li a {
-	color: black;
-}
-
-li a:hover {
-	font-weight: bold;
-	color: inherit;
-}
 
 .dropbtn:hover {
 	color:#e4050d;
 }
-.dropdown-content a:hover{
+.dropdown:hover{
 	color:#e4050d;
 }
+
 	.wrapper {
 		width: 100%;
 	}
 
 body{
-		font-family: helvetica;
+	font-family: helvetica;
     background-color: #d4c9c2;
 		position: relative;
-		font-size: 16px;
-		line-height: 1.5;
 }
 
 .wrap{
@@ -45,17 +36,9 @@ body{
 	height: 1500px;
 	margin: auto;
 	margin-top: 10px;
-	padding: 0;
+	padding: 5px;
 	position: relative;
 	}
-
-header{
-	width: 100%;
-	position:fixed;
-	-webkit-position:fixed;
-	top:0px;
-	z-index: 2;
-}
 
 header h1, h1 a{
 	margin: 0;
@@ -72,20 +55,17 @@ header h3{
 	text-decoration: none;
 	position: relative;
 	}
-
-.searchBox {
+	
+	.searchBox {
 		width: 40%; float: right; margin-top: 10px; background-color: #d4c9c2;
 	}
 
 .elheader{
 	text-decoration: none;
 	display: block;
-	height: 42px;
-	font-size: 29px;
+	height: 74px;
+	font-size: 36px;
 	color: black;
-	background-color: #d4c9c2;
-	padding: 5px 0 0 0;
-	margin: 0;
 	position: relative;
 	text-align: left;
 }
@@ -103,8 +83,8 @@ header h3{
 .dropbtn {
     background-color: #d4c9c2;
     color: black;
-    padding: 6px;
-    font-size: 18px;
+    padding: 8px;
+    font-size: 13px;
     border: none;
     cursor: pointer;
 }
@@ -116,9 +96,9 @@ header h3{
 
 .dropdown-content {
     display: none;
-		position: absolute;
+	position: absolute;
     width: 100%;
-    background-color: #e4050d;
+    background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -126,14 +106,12 @@ header h3{
     background-color: #d4c9c2;
 	color: black;
     padding: 8px;
-	font-size: 15px;
+	font-size: 11px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
-	background-color: #d4c9c2
-}
+.dropdown-content a:hover {background-color: #d4c9c2}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -142,90 +120,41 @@ header h3{
 .dropdown:hover .dropbtn {
     background-color: #d4c9c2;
 }
-/* Dropdown menu start */
-ul.elmenu {
-		list-style-type: none;
-		margin-top: -5px;
-		padding: 0;
-		background-color: #333;
-	}
 
-	li.elmenu {
-		float: left;
-	}
+li a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
 
-	li.elmenu a, .dropbtn.elmenu {
-		display: inline-block;
-		color: black;
-		text-align: center;
-		padding: 12px 4px;
-		text-decoration: none;
-	}
+li a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #e4050d;
+}
+.content, aside{
+	height: 13000px;
+	margin: auto;
 
-	li.elmenu a:hover, .elmenu.dropdown:hover .elmenu.dropbtn {
-		background-color: #e4050d;
-	}
-
-	li.dropdown.elmenu {
-		display: inline-block;
-	}
-
-	.elmenu.dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: #f9f9f9;
-		min-width: 160px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-	}
-
-	.elmenu.dropdown-content a {
-		color: black;
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-		text-align: left;
-	}
-
-	.elmenu.dropdown-content a:hover {background-color: #e4050d;}
-
-	.elmenu.dropdown:hover .elmenu.dropdown-content {
-		display: block;
-	}
- /* Drop-down menu end */
-
- .content, aside{
- 	height: 13000px;
- 	margin: auto;
-
- }
+}
 
 .content{
 	background: #d4c9c2;
 	float: right;
-	width: 86%;
+	width: 88%;
 	padding: 1%;
-	margin-top: 65px;
-	z-index: -1;
+	margin: 0;
 
 }
 aside {
 	float: left;
 	width: 8%;
-	padding: 0%;
-	margin-top:60px;
-	position:fixed;
-	-webkit-position:fixed;
-	z-index: 1;
+	padding: 1%;
 }
 
 aside ul {
 	list-style: none;
 	padding-left: 0px;
-}
-
-aside ul li a:hover{
-	color:#e4050d;
 }
 
 footer {
@@ -272,6 +201,47 @@ img {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
+	#main-content {
+	    max-width: 1439px;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	.responsive{
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.26%;
+	    position: relative;
+	}
+
+	.responsive2{
+			width: 100%;
+			height: 0;
+			padding-bottom: 56.26%;
+			position: relative;
+	}
+	.responsive iframe{
+	    position: absolute;
+	    width: 100%;
+	    height: 200%;
+	    top:0;
+	    padding-top: 0;
+	    box-sizing:border-box;
+	}
+
+	.responsive2 iframe{
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    top:0;
+	    padding-top: 0;
+	    box-sizing:border-box;
+	}
+
+	.notresponsive iframe{
+	  width:100%;
+	  height:90px;
+	}
 
 	.img-banner2 {
 	    display: block;
@@ -283,6 +253,7 @@ img {
 	    font-family: arial;
 	    font-size: 30px;
 	    color: #111;
+	    line-height: 0px;
 	  }
 
 	.gallery-position{
@@ -296,50 +267,57 @@ img {
 	    color: #111;
 	    line-height: 24px;
 	  }
-		 #main-content {
- 	 	    max-width: 1439px;
- 	 	    margin: 0 auto;
- 	 	    padding: 0;
- 	 	}
+	  /* Dropdown menu start */
+	  ul.elmenu {
+	      list-style-type: none;
+	      margin-top: -5px;
+	      padding: 0;
+	      background-color: #333;
+	    }
 
- 	 	.responsive{
- 	 	    width: 100%;
- 	 	    height: 0;
- 	 	    padding-bottom: 56.26%;
- 	 	    position: relative;
- 	 	}
+	    li.elmenu {
+	      float: left;
+	    }
 
- 	 	.responsive2{
- 	 			width: 100%;
- 	 			height: 0;
- 	 			padding-bottom: 56.26%;
- 	 			position: sticky;
- 	 			-webkit-position: sticky;
- 	 			top:150px;
- 	 	}
- 	 	.responsive iframe{
- 	 	    position: absolute;
- 	 	    width: 100%;
- 	 	    height: 200%;
- 	 	    top:0;
- 	 	    padding-top: 0;
- 	 	    box-sizing:border-box;
- 	 	}
+	    li.elmenu a, .dropbtn.elmenu {
+	      display: inline-block;
+	      color: black;
+	      text-align: center;
+	      padding: 12px 4px;
+	      text-decoration: none;
+	    }
 
- 	 	.responsive2 iframe{
- 	 	    position: absolute;
- 	 	    width: 100%;
- 	 	    height: 100%;
- 	 	    top:0;
- 	 	    padding-top: 0;
- 	 	    box-sizing:border-box;
- 	 	}
+	    li.elmenu a:hover, .elmenu.dropdown:hover .elmenu.dropbtn {
+	      background-color: #e4050d;
+	    }
 
- 	 	.notresponsive iframe{
- 	 	  width:100%;
- 	 	  height:90px;
- 	 	}
+	    li.dropdown.elmenu {
+	      display: inline-block;
+	    }
 
+	    .elmenu.dropdown-content {
+	      display: none;
+	      position: absolute;
+	      background-color: #f9f9f9;
+	      min-width: 160px;
+	      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	      z-index: 1;
+	    }
+
+	    .elmenu.dropdown-content a {
+	      color: black;
+	      padding: 12px 16px;
+	      text-decoration: none;
+	      display: block;
+	      text-align: left;
+	    }
+
+	    .elmenu.dropdown-content a:hover {background-color: #e4050d;}
+
+	    .elmenu.dropdown:hover .elmenu.dropdown-content {
+	      display: block;
+	    }
+	   /* Drop-down menu end */
 	   .img-me {
 	       padding-top: 9px;
 	       width: 100%;
@@ -365,30 +343,14 @@ img {
 		margin: 0 auto;
 	}
 
-body{
-	font-size: 15px;
-	line-height: 1.5;
-}
 	 .elheader{
-		height: 70px;
-		font-size: 49px;
-		margin: 0;
-		background-color: #d4c9c2;
-		padding: 10px 0 0 0;
+		text-decoration: none;
+		margin: auto;
+		height: 80px;
+		font-size: 40px;
+		position: relative;
 	 }
 
-	 .content{
-	 	width: 89%;
-	 	padding: 1%;
-	 	margin-top: 110px;
-	 }
-
-	 aside {
-	 	width: 8%;
-	 	padding: 1%;
-	 	margin-top:101px;
-		font-size: 19px;
-	 }
 	   .headline,
 	   .headline a,
 	   .headline a:link,
@@ -427,8 +389,9 @@ body{
 
 		 .dropbtn {
 		     padding: 12px;
-		     font-size: 20px;
-				 margin-top: 0px;
+		     font-size: 17px;
+		     border: none;
+		     cursor: pointer;
 
 		 }
 		 .dropdown-content a{
@@ -443,32 +406,6 @@ body{
 	       .wrapper {
 	           width: 1100px;
 	       }
-
-				 .elheader{
-					height: 70px;
-					font-size: 53px;
-					margin: 0;
-					background-color: #d4c9c2;
-					padding: 15px 0 0 0;
-				 }
-
-				 .content{
-				 	width: 90%;
-				 	padding: 1%;
-				 	margin-top: 120px;
-				 }
-
-				 .dropbtn {
-				     padding: 12px;
-				     font-size: 20px;
-					}
-
-				 aside {
-				 	width: 8%;
-				 	padding: 1%;
-				 	margin-top:110px;
-					font-size: 20px;
-				 }
 
 	       .img-info p {
 	           padding: 20px 0px 0px 0px;
